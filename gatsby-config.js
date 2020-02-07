@@ -17,9 +17,9 @@ try {
 
 module.exports = {
   siteMetadata: {
-    title: 'GCN',
+    title: 'Living Life',
     description:
-      'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
+      'Living life and writing some things down along the way',
     siteUrl: 'https://gcn.netlify.com',
     image: '/images/share.jpg',
     menuLinks: [
@@ -55,6 +55,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images-contentful`,
             options: {
+              withWebp: true,
               maxWidth: 650,
               backgroundColor: 'white',
               linkImagesToOriginal: false,
@@ -82,8 +83,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
-        name: 'GCN',
-        short_name: 'GCN',
+        name: 'LivingLife',
+        short_name: 'LivingLife',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
